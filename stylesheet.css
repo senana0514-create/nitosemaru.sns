@@ -1,0 +1,160 @@
+.title{
+  color: black;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.title{
+  font-size: 70px;
+  letter-spacing: 10px;
+  padding-top:250px;
+  
+}
+
+
+
+.copy-container{
+  background-image: url("../../ドキュメント/ps/名称未設定 1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1100px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+
+  
+  .title {
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-top: 150px;
+  }
+
+h1{
+  font-size: 130px;
+  text-align: center;
+  color: #9966CC;
+  font-family: "MS Serif";
+  opacity: 0.7;
+  letter-spacing: 20px;
+  line-height: 0.3;
+}
+
+p{
+  font-size: 25px;
+  text-align: center;
+  color: #9966CC;
+  font-family: "ヒラギノ明朝 ProN";
+  opacity: 0.7;
+  letter-spacing: 4px;
+  line-height: 0.3;
+  margin-bottom: 60px;
+}
+
+.contents{
+  background-color: #EAD9FF;
+  height: 1100px;
+  padding: 30px;
+}
+
+.contents-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn{
+  padding: 50px 0.1px;
+  color:white;
+  display: block;
+  opacity: 0.6;
+  border-radius: 7px;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.btn:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.btn.youtube{
+  background-color:#9966CC;
+  opacity: 0.8;
+}
+
+.btn.twitch{
+  background-color:#9966CC;
+  opacity: 0.8;
+}
+
+.btn.x{
+  background-color:#9966CC;
+  opacity: 0.8;
+}
+
+.btn.instagram{
+  background-color:#9966CC;
+  opacity: 0.8;
+}
+
+
+/* Smartphone adjustments */
+@media (max-width: 480px) {
+  .title{
+    font-size: 34px;
+    letter-spacing: 3px;
+    padding-top: 60px;
+  }
+  h1{
+    font-size: 36px;
+    letter-spacing: 4px;
+    line-height: 1.0;
+  }
+  p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  .copy-container{
+    height: auto;
+    padding: 24px 12px;
+    background-size: cover;
+  }
+  .contents{
+    height: auto;
+    padding: 16px 12px;
+  }
+  .contents-item{
+    flex-direction: column;
+    gap: 12px;
+  }
+  .btn{
+    padding: 14px 12px;
+    font-size: 16px;
+    width: 92%;
+    margin: 10px auto;
+    border-radius: 8px;
+  }
+  .btn:hover{
+    transform: none;
+  }
+  .footer{
+    padding: 10px 0;
+  }
+  .footer-img{
+    max-width: 48px;
+    max-height: 40px;
+    margin: 0 6px;
+  }
+}
+
+
+
+
